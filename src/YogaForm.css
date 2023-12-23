@@ -1,0 +1,60 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('./yoga3.jpg') center center fixed;
+    background-size: cover;
+  }
+  
+  .yoga-form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); 
+  }
+  
+  
+  .yoga-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .yoga-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .yoga-form-container label {
+    margin-bottom: 8px;
+  }
+  
+  .yoga-form-container input,
+  .yoga-form-container select {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .yoga-form-container button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .yoga-form-container .message {
+    margin-top: 16px;
+    padding: 8px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
